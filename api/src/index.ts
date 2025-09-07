@@ -26,6 +26,10 @@ const requestHandler = new DefaultRequestHandler(
 const appBuilder = new A2AExpressApp(requestHandler);
 const expressApp = appBuilder.setupRoutes(express());
 
+expressApp.get("/echo", (req, res) => {
+  res.json({ youSent: "body" });
+})
+
 const PORT = process.env.PORT || 41241;
 expressApp.listen(PORT, () => {
   console.log(`A2A server is running on http://localhost:${PORT}`);
