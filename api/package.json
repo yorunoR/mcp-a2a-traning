@@ -14,7 +14,9 @@
     "@a2a-js/sdk": "^0.3.4",
     "@ai-sdk/openai": "^2.0.24",
     "ai": "^5.0.34",
-    "express": "^5.1.0"
+    "dotenv": "^17.2.2",
+    "express": "^5.1.0",
+    "zod": "3.25.76"
   },
   "devDependencies": {
     "@types/node": "^24.3.1",
