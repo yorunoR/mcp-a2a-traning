@@ -9,6 +9,7 @@
   "author": "",
   "license": "ISC",
   "description": "",
+  "type": "module",
   "dependencies": {
     "@a2a-js/sdk": "^0.3.4",
     "@ai-sdk/openai": "^2.0.24",
